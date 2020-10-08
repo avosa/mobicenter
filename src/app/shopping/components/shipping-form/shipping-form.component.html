@@ -10,7 +10,7 @@
     <div class="form-group">
       <label for="phoneNumber">Phone Number</label>
       <input type="text" name="phoneNumber" ngModel #phoneNumber="ngModel" for="phoneNumber" class="form-control" required>
-      <div class="alert alert-danger" *ngIf="phoneNumber.touched && addressLine1.invalid">
+      <div class="alert alert-danger" *ngIf="phoneNumber.touched && phoneNumber.invalid">
         Phone Number is requried.
       </div>
     </div>
