@@ -1,8 +1,8 @@
 export const fireBaseKey = {
-    apiKey: "AIzaSyA1agx7ZE04kVuxHHqEs0DeS3agS21HcjE",
-    authDomain: "ogla1-91ffa.firebaseapp.com",
-    databaseURL: "https://ogla1-91ffa.firebaseio.com",
-    projectId: "ogla1-91ffa",
-    storageBucket: "ogla1-91ffa.appspot.com",
-    messagingSenderId: "716347633449"
+    apiKey: "AIzaSyCyhm9sqbyviOs7BMzNdldCUZkqO6MuURE",
+    authDomain: "mobicentre-1ae94.firebaseapp.com",
+    databaseURL: "https://mobicentre-1ae94.firebaseio.com",
+    projectId: "mobicentre-1ae94",
+    storageBucket: "mobicentre-1ae94.appspot.com",
+    messagingSenderId: "501356164806"
 };

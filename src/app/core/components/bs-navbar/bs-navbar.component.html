@@ -1,9 +1,9 @@
 <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
   <div class="container">
-    <a class="navbar-brand" (click)="navbarCollapsed = false" [routerLink]="['/']">Online Shop
+    <a class="navbar-brand" style="color: blue;" (click)="navbarCollapsed = false" [routerLink]="['/']">Mobicenter
         <i class="fa fa-shopping-bag" aria-hidden="true"></i>
       </a>
-    <button class="navbar-toggler" (click)="navbarCollapsed = !navbarCollapsed" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+    <button class="navbar-toggler" style="color: blue;" (click)="navbarCollapsed = !navbarCollapsed" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
       aria-controls="navbarsExampleDefault" [attr.aria-expanded]="!navbarCollapsed" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -19,7 +19,7 @@
         </li>
       </ul>
 
-      <ul class="navbar-nav">
+      <ul class="navbar-nav" >
         <ng-template #notLoggedInUser>
           <li (click)="navbarCollapsed = false" class="nav-item" [routerLinkActive]="['active']">
             <a class="nav-link" [routerLink]="['login']">
